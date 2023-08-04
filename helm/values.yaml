@@ -1,0 +1,10 @@
+image:
+  repository: akash7778/sample-flask-app
+  tag: 0.1
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 5000
+
+replicaCount: 1
